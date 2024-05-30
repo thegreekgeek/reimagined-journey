@@ -15,8 +15,8 @@ name = "thegreekgeek" # Your online name
 # Your profile image. External link or relative to static/. Examples:
 # "https://imgur.com/123456788"
 # "image/me.webp"
-image = "https://www.libravatar.org/accounts/raw_image/36160"
-about = "I'm dreaming, I'm dreaming! Come on, wake up! Wake up! Wake up..."
+image = "https://1.gravatar.com/avatar/f05da5a1e7c9903c783f8bc90d18d3c0eb3a1200f892694f79572d55ab32bf68?size=256"
+about = "Jack of all trades, blah blah blah"
 
 [params]
 # Name of a file in static/skins/ without the ".css" extension
