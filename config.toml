@@ -6,7 +6,7 @@ languageCode = "en-us"
 title = "Neofeed"
 # How many feed entries to load at once
 paginate = 6
-theme = 'neofeed'
+theme = 'neofeed-theme'
 [taxonomies]
 tag = "tags"
 
