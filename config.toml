@@ -15,12 +15,12 @@ name = "thegreekgeek" # Your online name
 # Your profile image. External link or relative to static/. Examples:
 # "https://imgur.com/123456788"
 # "image/me.webp"
-image = ""
+image = "https://www.libravatar.org/accounts/raw_image/36160.png"
 about = "I'm dreaming, I'm dreaming! Come on, wake up! Wake up! Wake up..."
 
 [params]
 # Name of a file in static/skins/ without the ".css" extension
-skin = "macintosh"
+skin = "minimal"
 
 #
 # Totally optional cool stuff (see README for details)
