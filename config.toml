@@ -15,7 +15,7 @@ name = "thegreekgeek" # Your online name
 # Your profile image. External link or relative to static/. Examples:
 # "https://imgur.com/123456788"
 # "image/me.webp"
-image = "https://www.libravatar.org/accounts/raw_image/36160.png"
+image = "https://www.libravatar.org/accounts/raw_image/36160"
 about = "I'm dreaming, I'm dreaming! Come on, wake up! Wake up! Wake up..."
 
 [params]
@@ -37,9 +37,9 @@ skin = "minimal"
 #
 # For IndieAuth and the author card
 #
-# githubuser = "chihiro"
+githubuser = "thegreekgeek"
 # twitteruser = "chihiro" # no @ in front
-# mastodon = "https://mastodon.technology/@chihiro" # full link to your instance profile
+mastodon = "https://mstdn.io/@thegreekgeek" # full link to your instance profile
 
 [permalinks]
 # Format for feed entry links. You probably don't need to change this.
