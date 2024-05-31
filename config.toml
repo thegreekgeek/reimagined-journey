@@ -3,7 +3,7 @@
 baseURL = "https://thegreekgeek.neocities.org/"
 languageCode = "en-us"
 # Title of your site
-title = "Neofeed"
+title = "TESTING TESTING"
 # How many feed entries to load at once
 paginate = 6
 theme = 'neofeed-theme'
