@@ -30,7 +30,7 @@ skin = "minimal"
 # plausible = true
 # paymentPointer = "$wallet.provider.com/myspecialid123"
 webmentionUrl = "https://webmention.io/thegreekgeek.neocities.org/webmention"
-# pingbackUrl = "https://webmention.io/example/xmlrpc"
+pingbackUrl = "https://webmention.io/thegreekgeek.neocities.org/xmlrpc"
 micropubUrl = "https://equatorial-tough-yamamomo.glitch.me/micropub/main"
 microsubUrl = "https://aperture.p3k.io/microsub/958"
 
