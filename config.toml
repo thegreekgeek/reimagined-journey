@@ -9,6 +9,7 @@ paginate = 6
 theme = 'neofeed-theme'
 [taxonomies]
 tag = "tags"
+category = "categories"
 
 [author]
 name = "thegreekgeek" # Your online name
@@ -16,7 +17,7 @@ name = "thegreekgeek" # Your online name
 # "https://imgur.com/123456788"
 # "image/me.webp"
 image = "https://1.gravatar.com/avatar/f05da5a1e7c9903c783f8bc90d18d3c0eb3a1200f892694f79572d55ab32bf68?size=256"
-about = "Jack of all trades, blah blah blah"
+about = "Nerd"
 
 [params]
 # Name of a file in static/skins/ without the ".css" extension
@@ -48,3 +49,4 @@ feed = "/:title/"
 [outputs]
 # Output formats for your feed. You probably don't need to change this.
   home = ["HTML", "JSON", "RSS"]
+  taxonomy = ['html']

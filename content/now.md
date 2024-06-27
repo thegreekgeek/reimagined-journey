@@ -1,5 +1,6 @@
 ---
 title: "My /now page"
+categories: slashes
 ---
 
 {{< rawhtml >}}

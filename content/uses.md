@@ -1,5 +1,6 @@
 ---
 title: "/uses"
+categories: slashes
 ---
 
 This is my /uses page, where I tell you all about all the stuff I use on a daily basis
