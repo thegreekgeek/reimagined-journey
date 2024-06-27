@@ -1,5 +1,8 @@
 ---
-title: "/now/
+title: "My /now page"
 ---
 
-<script src="https://omgnow.rknight.me/now.js?a=foobar&pretty"></script>
+{{< rawhtml >}}
+<script src="https://omgnow.rknight.me/now.js?a=thegreekgeek"></script>
+
+{{< /rawhtml >}}
