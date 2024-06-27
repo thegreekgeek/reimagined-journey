@@ -1,5 +1,5 @@
 ---
-title: "My /now page"
+title: "/now"
 ---
 
 {{< rawhtml >}}
