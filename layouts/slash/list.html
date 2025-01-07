@@ -1,0 +1,16 @@
+{{ define "feed" }}
+<!-- any list of entries page -->
+<ul id="feed__ul" class="h-feed">
+  {{ range .Pages }}
+  {{ if .Content }}
+  {{ partial "slli" . }}
+  {{ end }}
+  {{ end }}
+</ul>
+{{ end }}
+
+{{ define "footer" }}
+<footer>
+
+</footer>
+{{ end }}

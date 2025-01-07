@@ -1,0 +1,16 @@
+{{ define "slashes" }}
+<!-- home page -->
+<ul id="slashes__ul" class="h-slashes">
+    {{ $general := site.GetPage "slash" }}
+
+    {{ range $general.RegularPagesRecursive }}
+    
+    {{ end }}
+</ul>
+{{ end }}
+
+{{ define "footer" }}
+<footer>
+
+</footer>
+{{ end }}
