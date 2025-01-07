@@ -15,7 +15,7 @@ name = "thegreekgeek" # Your online name
 # Your profile image. External link or relative to static/. Examples:
 # "https://imgur.com/123456788"
 # "image/me.webp"
-image = "https://www.libravatar.org/accounts/raw_image/36160"
+image = "https://cdn.some.pics/thegreekgeek/677c6f3894200.png"
 about = "Jack of all trades, blah blah blah"
 
 [params]
