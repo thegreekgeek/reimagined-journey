@@ -20,7 +20,7 @@ about = "I like to tinker with things."
 
 [params]
 # Name of a file in static/skins/ without the ".css" extension
-skin = "macintosh"
+skin = "minimal"
 
 #
 # Totally optional cool stuff (see README for details)
