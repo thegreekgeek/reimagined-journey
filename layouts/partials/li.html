@@ -47,6 +47,15 @@
             {{ .Title }}
             {{ end }}
           </h2>
+          {{ else if in .Params.Categories "links" }}
+          <article class="md p-summary e-content">
+            <h2 class="p-name reply-context">
+              {{ with .Params.Reply }}
+              <a class="u-in-reply-to h-cite" href="{{ . }}">{{ $.Title }}</a>
+              {{ else }}
+              {{ .Title }}
+              {{ end }}
+            </h2>
         {{ else }}
           <article class="md p-summary e-content">
             <h2 class="p-name">
