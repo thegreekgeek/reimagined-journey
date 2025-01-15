@@ -1,3 +1,4 @@
+{{ define "main" }}
 <main aria-role="main">
   <section>
       <ul id="feed__ul">
@@ -74,8 +75,13 @@
                               {{ end }}
                           </h2>
                       {{ else if in .Params.Categories "repost" }}
-                      <article class="md e-content">
-                          <p>Reposted: <a class="u-repost-of" href="{{ .Params.Repost }}">{{ .Title }}</a></p>
+                      <article class="md p-summary e-content">
+                        <h2 class="p-name reply-context">
+                            {{ with .Params "mf-repost-of" }}
+                            <a class="u-repost-of h-cite" href="{{ . }}">{{ $.Title }}</a>
+                            {{ else }}
+                            {{ .Title }}
+                            {{ end }}
                       {{ else if in .Params.Categories "like" }}
                       <article class="md e-content">
                           <p>Liked: <a class="u-like-of" href="{{ .Params.Like }}">{{ .Title }}</a></p>
@@ -85,7 +91,12 @@
                               {{ .Title }}
                           </h2>
                       {{ end }}
+                      {{ $repostOf := index .Params "mf-repost-of" }}
+                      {{ if $repostOf }}    
+                      <p>Reposted from: <a href="{{ $repostOf }}">{{ $repostOf }}</a></p>
+                      {{ else }}
                       {{ .Content }}
+                      {{ end }}
                       <!-- Bridgy -->
                       <a class="hidden" href="https://brid.gy/publish/mastodon"></a>
                       <a class="hidden" href="https://brid.gy/publish/twitter"></a>
@@ -101,3 +112,4 @@
       </ul>
   </section>
 </main>
+{{ end }}

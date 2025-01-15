@@ -11,4 +11,4 @@ mf-post-status:
 slug: gaze-upon-this-omni-directional-treadmill-s
 category: links
 ---
-
+This is super cool!
