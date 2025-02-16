@@ -9,6 +9,7 @@ paginate = 6
 theme = 'neofeed-theme'
 [taxonomies]
 tag = "tags"
+slashes = "categories"
 
 [author]
 name = "thegreekgeek" # Your online name
@@ -44,6 +45,7 @@ mastodon = "https://mstdn.io/@thegreekgeek" # full link to your instance profile
 [permalinks]
 # Format for feed entry links. You probably don't need to change this.
 feed = "/:title/"
+categories = "/:section/:title"
 
 [outputs]
 # Output formats for your feed. You probably don't need to change this.
