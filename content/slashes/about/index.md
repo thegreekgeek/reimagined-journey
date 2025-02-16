@@ -1,5 +1,6 @@
 ---
 title: "/about"
+slashes: ["about"]
 ---
 
 This is my about slash page!
