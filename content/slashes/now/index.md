@@ -1,6 +1,8 @@
 ---
-title: "/now"
-slashes: ["now"]
+title: "now"
+categories: ["slashes"]
+layout: slashes
+url: "/now/"
 ---
 
 {{< rawhtml >}}
