@@ -11,17 +11,17 @@ theme = 'neofeed-theme'
 tag = "tags"
 slashes = "categories"
 
-[author]
-name = "thegreekgeek" # Your online name
-# Your profile image. External link or relative to static/. Examples:
-# "https://imgur.com/123456788"
-# "image/me.webp"
-image = "https://cdn.some.pics/thegreekgeek/677c6f3894200.png"
-about = "I like to tinker with things."
 
 [params]
 # Name of a file in static/skins/ without the ".css" extension
 skin = "minimal"
+  [params.author]
+    name = "thegreekgeek" # Your online name
+    # Your profile image. External link or relative to static/. Examples:
+    # "https://imgur.com/123456788"
+    # "image/me.webp"
+    image = "https://cdn.some.pics/thegreekgeek/677c6f3894200.png"
+    about = "I like to tinker with things."
 
 #
 # Totally optional cool stuff (see README for details)
